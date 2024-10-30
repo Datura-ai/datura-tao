@@ -21,13 +21,13 @@ This script generates a token using a specified coldkey and prints the signature
 To run the script, use the following command:
 
 ```bash
-python token_generator.py [coldkey]
+python token_generator.py [access_key] [coldkey]
 ```
 
-Replace `[coldkey]` with your actual coldkey name. For example:
+Replace `[access_key]` with your actual access key and `[coldkey]` with your coldkey name. For example:
 
 ```bash
-python token_generator.py mycoldkey
+python token_generator.py myAccessKey myColdKey
 ```
 
 ### Help
@@ -47,10 +47,10 @@ python token_generator.py --help
 ## Example
 
 ```bash
-python token_generator.py example_coldkey
+python token_generator.py exampleAccessKey exampleColdKey
 ```
 
-This will output the signature and coldkey address associated with `example_coldkey`.
+This will output the signature and coldkey address associated with `exampleColdKey`.
 
 ## Error Handling
 
